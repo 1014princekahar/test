@@ -2,10 +2,10 @@
 #include<string.h>
 int main(int argc, char const *argv[])
 {
-    char str1[100] ; 
+    char str1[100] ;
     printf("Enter First String : ") ;
     fgets( str1 , sizeof(str1) , stdin ) ;
-
+    
     char str2[100] ; 
     printf("Enter Second String : ") ; 
     fgets( str2 , sizeof(str2) , stdin ) ; 
